@@ -1,0 +1,309 @@
+*
+{
+     margin:0px;
+	 padding:0px;
+
+}
+
+
+li
+{
+     font-family: 'Baloo Paaji', cursive;
+}
+
+
+
+.container
+{
+     width:100%;
+}
+.wrapper
+{
+     width:1100px;
+	 margin:auto;
+ 
+}
+.dark
+{
+      background-color:#31353d;
+	  color:white;
+	  
+}
+
+.light
+{
+       background-color:#e9edf2;
+	   
+}
+#top_left 
+{
+    display:inline-block; 
+	
+}
+#top_right
+{
+  float:right;
+}
+#top_div
+{
+   height:40px;
+   line-height:40px;
+   
+}
+#logo_left
+{
+      
+	  display:inline-block;
+	 
+	 
+	  
+
+}
+#logo_right
+{ 
+     float:right;
+	 
+	 margin-top:30px;
+}
+#textstyle
+{
+      height:30px;
+	  border-radius:8px;
+}
+#button
+{
+ background-color:green;
+              color:white;
+			  padding:7px;
+			  border-radius:8px;
+			  width:70px;
+			  border:1px solid green;
+			  position:relative;
+	          border-radius:10px;
+			  
+}
+#clear
+{
+   clear:both;
+}
+ul
+{
+      list-style:none;
+}
+ ul li
+{
+       background-image:url(images/back.jpg) ;
+	   border:0.23px;
+	   margin:0.1px;
+	   width:170px;
+	   height:35px;
+	   line-height:35px;
+	   text-align:center;
+	   float:left;
+	   position:relative;
+	   border-radius:10px;
+	   
+	   
+	   
+}
+ ul li a
+{
+       text-decoration:none;
+	   color:white;
+	   display:block;
+}
+
+ ul li a:hover
+{
+   background-image:url(images/backhover.jpg) ;
+ border-radius:10px;
+}
+ ul ul
+{
+ positon:absolute;
+ display:none;
+}
+
+ ul li:hover >ul
+{
+  display:block;
+}
+
+h2
+{
+   font-family: 'Love Ya Like A Sister', cursive;
+}
+
+
+
+h1
+{
+   text-align:center;
+   text-transform:uppercase;
+ font-family: 'Sigmar One', cursive;
+}
+
+h3
+{
+   text-align:center;
+   text-transform:uppercase;
+   font-family: 'Lobster', cursive;
+}
+p
+{
+  text-align:justify;
+}
+#text_image
+{
+   width:150px;
+   margin:auto;
+   cursor:pointer;
+   
+   
+   
+}
+#div_text
+{
+   width:325;
+   margin:3px;
+   display:inline-block;
+   margin-top:15px;
+   box-shadow: 5px 5px 10px grey;
+   padding:15px;
+   margin-bottom:15px;
+   
+   
+}
+#bottom_div_left
+{
+       
+		display:inline-block;
+		width:600px;
+		margin-top:15px;
+}
+
+#bottom_div_left img
+
+{
+    border:1px solid grey;
+     padding:5px;
+	 margin:5px;
+	 border-radius:8px;
+	 
+
+
+}
+
+
+
+#bottom_div_right
+{
+       
+		float:right;
+		width:470px;
+		margin-top:15px;
+}
+#bottom_div_left_text
+{
+      text-align:center;
+	  
+}
+
+#latest_news img
+{
+    
+	margin:3px;
+	padding:3px;
+	border:1px solid grey;
+	border-radius:5px;
+}
+
+#latest_news
+{
+  
+   height:135px;
+}
+
+#footer_section a
+{
+  text-decoration:none;
+	   color:white;
+	   display:block;
+}
+#footer_section
+{
+   width:325;
+   margin:3px;
+   display:inline-block;
+   margin-top:15px;
+   padding:15px;
+   margin-bottom:15px;
+   align:center;
+   
+}
+
+#outerbox
+{
+ width:908px;
+ overflow:hidden;
+}
+
+#sliderbox
+{
+    position:relative;
+	width:2722px;
+	animation: joyal 15s infinite;
+    
+
+}
+
+#sliderbox img
+{
+  float:left;
+   width:851px;
+	border:1px solid grey;
+	padding:15px;
+	background-colour:#EEE;
+	box-shadow: 5px 5px 10px grey;
+	margin:10px;
+}
+
+@keyframes joyal{
+  0%
+      {
+          left:0px;
+       }
+	26.66%
+	    {
+		  left:0px;
+		}
+	33.33%
+	     {
+		   left:-908px;
+		 }
+    60%
+	    {
+		    left:-908px;
+		}
+	66.6%
+	    {
+		    left:-1814px;		}
+	93.33%
+	    {
+	         left:-1814px;
+	     }
+	 100%
+	     {
+		   left:-2722px;
+		 }
+  
+ }
+ #sliderimage img
+{
+    width:900px;
+	border:1px solid grey;
+	padding:15px;
+	background-colour:#EEE;
+	box-shadow: 5px 5px 10px grey;
+	margin:10px;
+}
